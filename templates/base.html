@@ -13,21 +13,26 @@
 {#  ***************** Side bar diviation ***************** #}
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="#" onclick="closeNav()">Home</a>
-  <a href="#" onclick="closeNav()">About</a>
-  <a href="#" onclick="closeNav()">Services</a>
-  <a href="#" onclick="closeNav()">Contact</a>
+  <a href="{{ url_for('home_page')}}" onclick="closeNav()">Home</a>
+  <a href="{{ url_for('about_page') }}" onclick="closeNav()">About Me</a>
+  <a href="{{ url_for('article_page') }}" onclick="closeNav()">My Articles</a>
+  <a href="{{ url_for('project_page') }}" onclick="closeNav()">Projects|tests</a>
+  <a href="{{ url_for('contact_page') }}" onclick="closeNav()">Contact</a>
 </div>
 
 
 
 
 {#  ***************** Main body diviation ***************** #}
-<div id="main" style="background: yellow">
+<div id="main">
 
-  <h1 class="glow"><button class="openbtn" onclick="countNav()" style="float: left">☰ Menu </button><span style=" text-align: center;"> King - ඥානපාල  &#9812; </span> </h1>
+  <h1 class="glow"><button class="openbtn" onclick="countNav()" style="float: left">☰ Menu </button>
+      <span style=" text-align: center;">   &#9812; Padma Gnanapriya </span> </h1>
 
-  {% block body %}{% endblock %}
+  {% block body %}
+
+
+  {% endblock %}
 
 
 </div>
