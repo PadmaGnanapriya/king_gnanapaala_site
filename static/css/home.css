@@ -20,18 +20,7 @@ h1 {
 p {
 	font-size: 23px;
 	font-weight: lighter;
-	color: #333333;
-}
-
-span a {
-	font-size: 18px;
-	color: #cccccc;
-	text-decoration: none;
-	margin: 0 10px;
-	transition: all 0.4s ease-in-out;
-}
-span a :hover {
-	color: #ffffff;
+	color: navy;
 }
 
 
@@ -66,6 +55,7 @@ ul li {
 .avatar {
 	width: 250px;
 	height: 152px;
+	margin-top:50px;
     /* overflow: hidden; */
 	/*border: 5px orangered solid;*/
 	/*box-shadow: 0 5px 15px 0px rgb(0,0,0);*/
@@ -74,13 +64,16 @@ ul li {
 
 .content {
 	width: 100%;
-	max-width: 600px;
+	/*max-width: 600px;*/
 	padding: 20px 40px;
 	box-sizing: border-box;
 	text-align: left;
 }
 
 img { width: 100%; height: 100%;  }
+
+
+
 
 
 .rainbow {
@@ -107,7 +100,7 @@ img { width: 100%; height: 100%;  }
     background-repeat: no-repeat;
     background-size: 50% 50%, 50% 50%;
     background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-	background-image: linear-gradient(black, #0e102c), linear-gradient(gold, yellow), linear-gradient(#0e102c,black), linear-gradient(yellow,gold);
+	background-image: linear-gradient(yellow, gold), linear-gradient(pink,deeppink,purple),linear-gradient(blue, mediumblue), linear-gradient(orangered,red,darkred) ;
     /*background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);*/
     animation: rotate 4s linear infinite;
 }
