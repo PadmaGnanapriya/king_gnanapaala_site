@@ -69,12 +69,12 @@ body {
 
 
 /*------------------------------Glowing Effect-------------------------------------*/
-.glow { font-size: 40px; color: #fff; text-align: center; padding: 10px;margin: 0;
-  -webkit-animation: glow 1s ease-in-out infinite alternate; width: 100%;
+.glow { font-size: 40px; color: #fff; text-align: center; padding: 10px;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;  position:fixed;
+  animation: glow 1s ease-in-out infinite alternate;
   background-color: black; float:top ; with:120%}
 @-webkit-keyframes glow {
-  from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0000FF, 0 0 40px #0000FF, 0 0 50px #0000FF, 0 0 60px #000080, 0 0 70px #000080;}
-  to {text-shadow: 0 0 20px #fff, 0 0 30px #1BAACE, 0 0 40px #1BAACE, 0 0 50px #1BAACE, 0 0 60px #1464D3, 0 0 70px #1464D3, 0 0 80px #000080;}}
+  from {text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;}
+  to {text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;}}
 /*-------------x----------------Glowing Effect-----------------------x--------------*/

@@ -1,19 +1,20 @@
-container, body, html{
+container{
+	height: 100%;
 	margin: 0;
 	padding: 0;
-	height: 100%;
 	font-family: 'Helvetica', sans-serif;
 	background: rgb(26, 188, 156);
-	background: -moz-linear-gradient(180deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-	background: -webkit-linear-gradient(180deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-	/*background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);*/
+	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
 }
 
 h1 {
-	font-size: 22px;
+	font-size: 24px;
 	margin: 10px 0 0 0;
 	font-weight: lighter;
-	color: darkblue;
+	text-transform: uppercase;
+	color: #eeeeee;
 }
 
 p {
@@ -49,6 +50,7 @@ span a {
 
 .container {
 	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -61,20 +63,20 @@ ul li {
 
 .avatar {
 	width: 250px;
-	height: 153px;
+	height: 144px;
     /* overflow: hidden; */
-	border: 5px black solid;
+	border: 5px orangered solid;
 	box-shadow: 0 5px 15px 0px rgb(0,0,0);
 	animation: float 6s ease-in-out infinite;
-	margin-top:130px;
 
 }
 
 .content {
 	width: 100%;
+	max-width: 600px;
 	padding: 20px 40px;
 	box-sizing: border-box;
-	text-align: justify;
+	text-align: left;
 }
 
 img { width: 100%; height: auto; }
