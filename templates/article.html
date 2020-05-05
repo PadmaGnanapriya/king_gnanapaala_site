@@ -2,18 +2,29 @@
 
 {% block body %}
  <link rel="stylesheet" href="{{ url_for('static', filename='css/article.css')}}">
-    <nav style="background-color: orangered; padding: 10px;">
 
-          <section style="background-color: olivedrab; min-height: 400px;">  <!--Need to init minimum height if image exit here-->
-            <h1>SubTitle mine_3</h1>
-            <img src="{{url_for('static', filename='images/padme.jpg', width=10)}}" style="width: 200px"/>
-            <p>Mahinda College is a Buddhist boys' school in Galle, Sri Lanka. The school was established on 1 March 1892 by the Buddhist Theosophical Society led by Colonel Henry Steel Olcott. Today it is a national school, which provides primary and secondary education across 13 grades..</p>
-          </section>
-          <section style="background-color: cyan; min-height: 400px;">  <!--Need to init minimum height if image exit here-->
-            <h1>SubTitle mine_3</h1>
-            <img src="{{url_for('static', filename='images/padme.jpg', width=1)}}" style="width: 200px"/>
-            <p>Mahinda College is a Buddhist boys' school in Galle, Sri Lanka. The school was established on 1 March 1892 by the Buddhist Theosophical Society led by Colonel Henry Steel Olcott. Today it is a national school, which provides primary and secondary education across 13 grades..</p>
-          </section>
-    </nav>
+    <nav style="padding: 30px; background: transparent">
+                        <h1>My medium articles</h1>
+                          {# *****************add new article ************************* #}
+                        <a href="https://medium.com/@padmaisuru/what-is-a-variable-in-computer-programming-5506164d9482?source=friends_link&sk=e469aca130ce64ec76c4951137c2b284">
+                            <section>
+                            <img src="{{url_for('static', filename='images/article3.png', width=1)}}" target="_blank" style="width: 200px"/>
+                                What is a “Variable” in computer programming?
+                            </section>
+                        </a>
+                        <a href="https://medium.com/@padmaisuru/evolution-of-mac-os-166cff8e6df4?source=friends_link&sk=cda60a82cc3c9ccac78bb645a8d2df9c">
+                            <section>
+                            <img src="{{url_for('static', filename='images/mac_os.jpeg', width=1)}}" target="_blank" style="width: 200px"/>
+                                Evolution of mac OS.
+                            </section>
+                        </a>
+                        <a href="https://medium.com/@padmaisuru/evolution-of-windows-os-7b4fad8bdebc?source=friends_link&sk=21f3971ec7ca0dd750188b1409e5fcc6">
+                            <section>
+                            <img src="{{url_for('static', filename='images/windows_os.jpeg', width=1)}}" target="_blank" style="width: 200px"/>
+                                Evolution of Windows OS.
+                            </section>
+                        </a>.
+                    </nav>
+
 
 {% endblock %}

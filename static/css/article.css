@@ -1,8 +1,54 @@
 img{
-    width: 300px;
-    padding: 20px;
+    width: 130px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
 }
 
-p{
-    float: left;
+section{
+    min-height: 100px;
+    padding: 20px;
+    background: lightslategray;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    padding-top: 30px;
+}
+
+/*background*/
+nav,body{
+    background: linear-gradient(270deg, #21e1b0, #45e121, #dfe121, #db21e1);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 5s ease infinite;
+    -moz-animation: AnimationName 5s ease infinite;
+    -o-animation: AnimationName 5s ease infinite;
+    animation: AnimationName 5s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
