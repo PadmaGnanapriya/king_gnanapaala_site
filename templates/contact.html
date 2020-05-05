@@ -2,9 +2,38 @@
 
 {% block body %}
 
-    
-    <h1>This is contact</h1>
-    <h1>This is Contact</h1>
-    <h1>This is Contactt</h1>
+
+
+
+
+
+
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css')}}">
+
+
+
+    <br><br><br>
+    <div class="rainbow">
+        <a href="tel:+94766328189"><h2>Call</h2><br>
+        <img src="/static/images/mobile.gif?width=10">076-632-8189</a><br>
+    </div>
+    <div class="rainbow">
+        <a href="sms:+94766328189"><h2>SMS</h2><br>
+        <img src="/static/images/sms.gif?width=10">0766328189</a><br>
+    </div>
+    <div class="rainbow">
+        <a href="mailto:padmaganapriya@gmail.com"><h2>email</h2><br>
+        <img src="/static/images/email.gif?width=10">padmaganapriya@gmail.com</a><br>
+        <a href="mailto:padmaganapriya@outlook.com">padmaganapriya@outlook.com</a>
+    </div>
+        <div class="rainbow">
+        <a href="https://api.whatsapp.com/send?phone=+94766328189"><h2>Whatsapp</h2><br>
+        <img src="/static/images/whatsapp.gif?width=10">0766328189</a><br>
+    </div>
+
+
+
+
 
 {% endblock %}
