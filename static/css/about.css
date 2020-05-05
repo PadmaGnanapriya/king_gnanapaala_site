@@ -1,0 +1,41 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.parallax {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+
+.parallax p{
+  font-size: 22px;
+  text-align: justify;
+  width: 70%;
+  background: rgba(1, 1, 1,0.3);
+  padding: 10px;
+}
+
+
+.mahinde {
+    background-image: url('/static/images/mahinde.jpg')
+}
+
+.mahinde p{
+    color: yellow;
+    float: right;;
+}
+
+.polpagoda{
+    background-image: url('/static/images/polpagoda.jpg')
+}
+
+
+.polpagoda p{
+    color: aquamarine;
+    float: left;
+
+}
