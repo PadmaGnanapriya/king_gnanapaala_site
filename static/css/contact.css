@@ -5,19 +5,18 @@ img{
 a{
     text-decoration: none;
     color: navy;
-    size: 22px;
+    size: 24px;
 }
 
 h2{
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
-body {
-	display: flex;
-	justify-content: center;
+body{
 	align-items: center;
-	height: 100vh;
+
 }
 
 *, *::before, *::after {

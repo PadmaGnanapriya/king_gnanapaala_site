@@ -1,24 +1,25 @@
-container{
+body,
+html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-family: 'Helvetica', sans-serif;
 	background: rgb(26, 188, 156);
-	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -moz-linear-gradient(0deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+
 }
 
 h1 {
 	font-size: 24px;
 	margin: 10px 0 0 0;
 	font-weight: lighter;
-	text-transform: uppercase;
-	color: #eeeeee;
+	color: navy;
 }
 
 p {
-	font-size: 12px;
+	font-size: 23px;
+	font-weight: lighter;
 	color: #333333;
 }
 
@@ -28,10 +29,11 @@ span a {
 	text-decoration: none;
 	margin: 0 10px;
 	transition: all 0.4s ease-in-out;
-	/*&:hover {*/
-	/*	color: #ffffff;*/
-	/*}*/
 }
+span a :hover {
+	color: #ffffff;
+}
+
 
 @keyframes float {
 	0% {
@@ -63,12 +65,11 @@ ul li {
 
 .avatar {
 	width: 250px;
-	height: 144px;
+	height: 152px;
     /* overflow: hidden; */
 	border: 5px orangered solid;
 	box-shadow: 0 5px 15px 0px rgb(0,0,0);
 	animation: float 6s ease-in-out infinite;
-
 }
 
 .content {
