@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/home.css')}}">
+
+
+    <div class="container">
+
+        <div class="avatar">
+            <div class="rainbow">
+                <a href="#">
+                    <img src="{{url_for('static', filename='images/padme.jpg', width=100)}}" />
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <br><br>
+
+
+            <p>Hello there I'm Padma Gnanapriya, level 2 undergraduate at University of Kelaniya.
+            Currently, I'm seeking a part time time software engineering. If you think I'm a
+             good fit, please contact me.</p>
+            <p>git, linkin,facebook,whatsapp icons</p>
+        </div>
+    </div>
+
+{% endblock %}
