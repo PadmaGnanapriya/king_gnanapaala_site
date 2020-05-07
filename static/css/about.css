@@ -14,7 +14,8 @@ body{
 .parallax p{
   font-size: 22px;
   text-align: justify;
-  width: 70%;
+  width: 80%;
+  max-width: 600px;
   background: rgba(1, 1, 1,0.5);
   padding: 10px;
 }
